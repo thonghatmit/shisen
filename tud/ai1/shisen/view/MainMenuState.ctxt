@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MainMenuState
+comment0.text=\r\n\ @author\ Timo\ B\u00C3\u00A4hr,\ Niklas\ Grimm,\ Niklas\ Vogel\r\n\r\n\ \ \ \ \ \ \ \ \ Diese\ Klasse\ repraesentiert\ das\ Menuefenster,\ indem\ ein\ neues\r\n\ \ \ \ \ \ \ \ \ Spiel\ gestartet\ werden\ kann\ und\ das\ gesamte\ Spiel\ beendet\r\n\ \ \ \ \ \ \ \ \ werden\ kann,\r\n
+comment1.params=sid
+comment1.target=MainMenuState(int)
+comment2.params=container\ game
+comment2.target=void\ init(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame)
+comment2.text=\r\n\ Wird\ vor\ dem\ (erstmaligen)\ Starten\ dieses\ States\ ausgefuehrt.\r\n\ \r\n\ @param\ container\ GameContainer.\r\n\ @param\ game\ StateBasedGame.\r\n\ \r\n\ @throws\ SlickException\ Wirft\ eine\ SlickException,\ wenn\ beim\ Initialisieren\ dieses\ States\ ein\r\n\ \ \ \ \ \ \ \ \ Fehler\ passiert.\r\n
+comment3.params=container\ game\ delta
+comment3.target=void\ update(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int)
+comment3.text=\r\n\ Wird\ vor\ dem\ Frame\ ausgefuehrt.\r\n\ \r\n\ @param\ container\ GameContainer.\r\n\ @param\ game\ StateBasedGame.\r\n\ @param\ delta\ Delta.\r\n
+comment4.params=container\ game\ g
+comment4.target=void\ render(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ org.newdawn.slick.Graphics)
+comment4.text=\r\n\ Wird\ mit\ dem\ Frame\ ausgefuehrt.\r\n\ \r\n\ @param\ container\ GameContainer.\r\n\ @param\ game\ StateBasedGame.\r\n\ @param\ g\ Graphics.\r\n
+comment5.params=
+comment5.target=int\ getID()
+comment5.text=\r\n\ Gibt\ ID\ des\ States\ zurueck.\r\n\ \r\n\ @return\ ID\r\n
+numComments=6

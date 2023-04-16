@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TokenDisplayValueProvider
+comment0.text=\r\n\ \r\n\ Klasse\ zum\ Ubersetzen\ von\ Token-Werten\ zu\ Symbolen\ zum\ Anzeigen\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @author\ Robert\ Jakobi\r\n\r\n
+comment1.params=path
+comment1.target=TokenDisplayValueProvider(java.lang.String)
+comment1.text=\r\n\ Konstruktor\ zum\ Initialisieren\ eines\ Objekts\ mit\ einem\ uebergebenen\ Pfad\ zur\ Symbol-Datei\ als\r\n\ String.\r\n\ \r\n\ @param\ path\ Pfad\ zur\ Symbol-Datei.\r\n
+comment2.params=path
+comment2.target=java.lang.String[]\ loadMap(java.lang.String)
+comment2.text=\r\n\ Laedt\ eine\ Symbol-Datei\ von\ einem\ als\ String\ uebergebenen\ Pfad.\r\n\ \r\n\ @param\ path\ Pfad\ zur\ Symbol-Datei.\r\n\ @return\ Symbole\ als\ String-Array\r\n
+comment3.params=id
+comment3.target=java.lang.String\ getDisplayValue(int)
+comment3.text=\r\n\ Gibt\ den\ zu\ einer\ ID\ passenden\ String-Wert\ zum\ Anzeigen\ zurueck.\r\n\ \r\n\ @param\ id\ ID,\ fuer\ die\ der\ Wert\ zurueckgegeben\ wird.\r\n\ @return\ Wert\r\n
+comment4.params=
+comment4.target=TokenDisplayValueProvider\ getInstance()
+comment4.text=\r\n\ Statische\ Methode\ zum\ Zurueckgeben\ der\ Instanz\ der\ Klasse.\r\n\ \r\n\ @return\ Instanz\r\n
+comment5.params=path
+comment5.target=boolean\ initilize(java.lang.String)
+comment5.text=\r\n\ Initialisiert\ die\ Instanz\ der\ Klasse\ mit\ einem\ gegebenen\ Pfad\ als\ String.\r\n\ \r\n\ @param\ path\ Pfad\ zur\ Symbol-Datei.\r\n\ @return\ True,\ wenn\ Instanz\ initialisiert\ wurde,\ ansonsten\ false\r\n
+numComments=6

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Steht\ fuer\ die\ Buttons\ im\ gesamten\ Spiel.\ Ermoeglicht\ diese\ zu\ skalieren,\ zu\r\n\ (de)aktivieren\ und\ deren\ Aktionen\ sind\ direkt\ mit\ der\ Instanz\ verknuepft.\r\n\ \r\n\ @author\ Andrej\ Felde,\ Stefan\ Toelle\r\n\r\n
+comment1.params=label\ x\ y\ action\ style
+comment1.target=Button(java.lang.String,\ float,\ float,\ eea.engine.action.Action,\ int[])
+comment1.text=\r\n\ Erstellt\ einen\ Button\ mit\ entsprechendem\ Design\ an\ der\ uebergebenen\ Stelle.\r\n\ \r\n\ @param\ label\ Label\ fuer\ den\ Button,\ der\ Text,\ der\ angezeigt\ werden\ soll.\r\n\ @param\ x\ x-Koordinate\ des\ Buttons.\r\n\ @param\ y\ y-Koordinate\ des\ Buttons.\r\n\ @param\ action\ Eine\ Action,\ die\ der\ Button\ ausfuehren\ soll,\ wenn\ auf\ dieser\ geklickt\ wird\ und\r\n\ \ \ \ \ \ \ \ dieser\ aktiv\ ist.\r\n\ @param\ style\ Ermoeglicht\ verschiedene\ Stile\ fuer\ den\ Button.\r\n\ \ \ \ \ \ \ \ int[0]\:\ Schriftgroesse\:\ 0->30,\ 1->20,\ 2->15\r\n\ \ \ \ \ \ \ \ int[1]\:\ 0->grauer\ button;\ 1->roter\ button\r\n\ \r\n\ @throws\ SlickException\ Wirft\ eine\ SlickException,\ wenn\ eine\ Ausnahme\ passiert.\r\n
+comment2.params=gc\ sb\ delta
+comment2.target=boolean\ performAction(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int)
+comment3.params=active
+comment3.target=void\ setActive(boolean)
+comment3.text=\r\n\ Setzt\ den\ Aktivitaetsstatus\ des\ Buttons.\r\n\ \r\n\ @param\ active\ True,\ damit\ der\ Button\ aktiv\ wird\ und\ false\ damit\ dieser\ inkativ\ wird.\r\n
+comment4.params=
+comment4.target=boolean\ isActive()
+comment4.text=\r\n\ Gibt\ zurueck\ ob\ der\ Button\ eine\ Aktion\ ausfuehrt,\ wenn\ dieser\ angeklickt\ wird.\r\n\ \r\n\ @return\ true,\ wenn\ der\ Button\ aktiv\ ist;\ sonst\ false\r\n
+comment5.params=gameContainer\ stateBasedGame\ graphics
+comment5.target=void\ render(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ org.newdawn.slick.Graphics)
+comment5.text=\r\n\ Rendert\ einen\ Frame.\r\n\ \r\n\ @param\ gameContainer\ GameContainer.\r\n\ @param\ stateBasedGame\ StatebasedGame.\r\n
+comment6.params=gc\ sb\ delta
+comment6.target=void\ update(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int)
+comment6.text=\r\n\ Wird\ vor\ jedem\ Frame\ ausgefuehrt.\r\n\ \r\n\ @param\ gc\ GameContainer.\r\n\ @param\ sb\ StateBasedGame.\r\n\ @param\ delta\ Delta.\r\n
+numComments=7

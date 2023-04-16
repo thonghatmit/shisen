@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=EntityToken
+comment0.text=\r\n\ Stellt\ die\ Entitaet\ Token\ fuer\ den\ View\ dar.\ Spiellogikdaten\ ueber\ den\ Token\ sind\r\n\ im\ model\ in\ Klasse\ Token\ gespeichert.\r\n\ \r\n\ @author\ Stefan\ Toelle\r\n
+comment1.params=entityID\ token\ pos\ scale
+comment1.target=EntityToken(java.lang.String,\ tud.ai1.shisen.model.IToken,\ org.newdawn.slick.geom.Vector2f,\ float)
+comment1.text=\r\n\ Erstellt\ den\ Token\ mit\ entschrechenden\ Parametern.\r\n\ \r\n\ @param\ entityID\ Die\ ID\ fuer\ den\ Roken.\r\n\ @param\ token\ Der\ Roken\ zu\ dieser\ entity.\r\n\ @param\ pos\ Position\ des\ Token\ auf\ dem\ Bildschirm.\r\n\ @param\ scale\ Skalierung\ auf\ dem\ Bildschirm.\ 1\ entspricht\ 30x30\ Pixel.\r\n\ @throws\ SlickException\ Wirft\ eine\ SlickException\ wenn\ eine\ Ausnahme\ passiert.\r\n
+comment2.params=gc\ sb\ delta\ event
+comment2.target=void\ update(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int,\ eea.engine.component.Component)
+comment3.params=gc\ sb\ delta
+comment3.target=void\ update(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int)
+comment3.text=\r\n\ Wird\ vor\ jedem\ Frame\ ausgefuehrt.\r\n\ \r\n\ @param\ gc\ GameContainer.\r\n\ @param\ sb\ StateBasedGame.\r\n\ @param\ delta\ Delta.\r\n
+comment4.params=gc\ sb\ graphics
+comment4.target=void\ render(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ org.newdawn.slick.Graphics)
+comment4.text=\r\n\ Rendert\ einen\ Frame.\r\n\ \r\n\ @param\ gc\ GameContainer.\r\n\ @param\ sb\ StateBasedGame.\r\n\ @param\ graphics\ Graphics.\r\n
+numComments=5

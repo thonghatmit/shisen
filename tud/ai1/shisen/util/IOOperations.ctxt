@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IOOperations
+comment0.text=\r\n\ Klasse\ zum\ Lesen\ und\ Schreiben\ von\ Dateien.\ Dies\ wird\ insbesondere\ zum\ Lesen\r\n\ und\ Schreiben\ der\ Highscore-Datei\ und\ zum\ Lesen\ der\ Level\ genutzt.\r\n\r\n\ @author\ Maximilian\ Kratz\r\n\ @date\ 2019-05-04\r\n\r\n
+comment1.params=fileName
+comment1.target=java.lang.String\ readFile(java.lang.String)
+comment1.text=\r\n\ Diese\ Methode\ wird\ dazu\ genutzt\ um\ eine\ Datei\ auszulesen.\r\n\r\n\ @param\ file\ Dateiname,\ welcher\ in\ der\ Form\ eines\ Strings\ uebergeben\ wird.\r\n\ @return\ Den\ String\ des\ Inhalts\ der\ uebergebenen\ Datei,\ sofern\ diese\ gefunden\ werden\ kann,\r\n\ \ \ \ \ \ \ \ \ ansonsten\ kommt\ ein\ leerer\ String\ zurueck.\r\n
+comment2.params=fileName\ data
+comment2.target=boolean\ writeFile(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Allgemein\ kann\ die\ Methode\ einen\ beliebigen\ String\ in\ einer\ Datei\ speichern.\r\n\ Diese\ Methode\ wird\ dazu\ genutzt\ um\ den\ Highscore\ in\ einer\ Datei\ zu\ speichern.\r\n\r\n\ @param\ fileName\ Ein\ in\ einem\ String\ uebergebener\ Dateiname.\ Bei\ einem\ Pfad\ muss\ der\ zugeh\u00C3\u00B6rige\r\n\ \ \ \ \ \ \ \ Pfad\ bereits\ existieren.\r\n\ @param\ dataString\ Der\ Inhalt,\ welcher\ in\ die\ angegebene\ Datei\ geschrieben\ werden\ soll.\r\n\ @return\ true,\ wenn\ die\ Datei\ erstellt\ bzw.\ in\ sie\ geschrieben\ werden\ konnte,\ sonst\ false.\r\n
+numComments=3

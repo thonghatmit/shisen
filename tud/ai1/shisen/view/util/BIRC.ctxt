@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BIRC
+comment0.text=\r\n\ Re-implementation\ of\ the\ ImageRenderComponent\ with\ a\ setter\ to\ modify\ the\r\n\ image\ and\ a\ Bug-fix\ for\ the\ scale.\r\n\ \r\n\ @author\ Andrej\ Felde\r\n\r\n
+comment1.params=theImage
+comment1.target=BIRC(org.newdawn.slick.Image)
+comment1.text=\r\n\ Create\ a\ new\ ImageRenderComponent\ with\ the\ given\ image.\r\n\ \r\n\ Note\ that\ no\ further\ actions\ are\ needed\ for\ this\ component,\ as\ it\ will\ be\r\n\ drawn\ automatically\ whenever\ the\ "update"\ method\ is\ invoked,\ and\ will\ be\r\n\ updated\ if\ the\ underlying\ entity\ was\ moved\ or\ rotated.\r\n\ \r\n\ @param\ theImage\r\n\ \ \ \ \ \ \ \ the\ image\ to\ render\ for\ this\ component\r\n
+comment2.params=gc\ sb\ graphicsContext
+comment2.target=void\ render(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ org.newdawn.slick.Graphics)
+comment2.text=\r\n\ Rendering\ an\ image\ is\ performed\ based\ on\ the\ underlying\ entity's\ current\r\n\ position\ and\ scale.\ The\ image\ is\ adapted\ according\ to\ this\ regarding\ its\r\n\ size\ and\ location.\r\n\ \r\n\ @param\ gc\r\n\ \ \ \ \ \ \ \ the\ GameContainer\ object\ that\ handles\ the\ game\ loop,\ recording\ of\r\n\ \ \ \ \ \ \ \ the\ frame\ rate,\ and\ managing\ the\ input\ system\r\n\ @param\ sb\r\n\ \ \ \ \ \ \ \ the\ StateBasedGame\ that\ isolates\ different\ stages\ of\ the\ game\r\n\ \ \ \ \ \ \ \ (e.g.,\ menu,\ ingame,\ highscores\ etc.)\ into\ different\ states\ so\r\n\ \ \ \ \ \ \ \ they\ can\ be\ easily\ managed\ and\ maintained.\r\n\ @param\ graphicsContext\r\n\ \ \ \ \ \ \ \ the\ graphics\ context\ necessary\ for\ painting\ ("rendering")\ the\r\n\ \ \ \ \ \ \ \ component\ on\ the\ game\ container\ display\r\n
+comment3.params=
+comment3.target=org.newdawn.slick.geom.Vector2f\ getSize()
+comment3.text=\r\n\ Returns\ the\ size\ of\ the\ component\ as\ a\ 2D\ floating\ point\ vector\r\n\ \r\n\ @return\ the\ size\ of\ the\ RenderComponent\ as\ a\ 2D\ floating\ point\ vector\ using\r\n\ \ \ \ \ \ \ \ \ Slick's\ @{link\ org.newdawn.slick.geom.Vector2f}\r\n
+comment4.params=gc\ sb\ delta
+comment4.target=void\ update(org.newdawn.slick.GameContainer,\ org.newdawn.slick.state.StateBasedGame,\ int)
+comment4.text=\r\n\ Update\ the\ image\ regarding\ its\ current\ scale\ and\ rotation\ angle\r\n\ \r\n\ @param\ gc\r\n\ \ \ \ \ \ \ \ the\ {@link\ org.newdawn.slick.GameContainer}\ object\ that\ handles\r\n\ \ \ \ \ \ \ \ the\ game\ loop,\ recording\ of\ the\ frame\ rate,\ and\ managing\ the\ input\r\n\ \ \ \ \ \ \ \ system\r\n\ @param\ sb\r\n\ \ \ \ \ \ \ \ the\ {@link\ org.newdawn.slick.state.StateBasedGame}\ that\ isolates\r\n\ \ \ \ \ \ \ \ different\ stages\ of\ the\ game\ (e.g.,\ menu,\ ingame,\ highscores\ etc.)\r\n\ \ \ \ \ \ \ \ into\ different\ states\ so\ they\ can\ be\ easily\ managed\ and\r\n\ \ \ \ \ \ \ \ maintained.\r\n\ @param\ delta\r\n\ \ \ \ \ \ \ \ the\ time\ passed\ in\ nanoseconds\ (ns)\ since\ the\ start\ of\ the\ event,\r\n\ \ \ \ \ \ \ \ used\ to\ interpolate\ the\ current\ target\ position\r\n
+comment5.params=img
+comment5.target=void\ setImage(org.newdawn.slick.Image)
+comment5.text=\r\n\ Change\ the\ Image\r\n\ \r\n\ @param\ img\ The\ new\ image\r\n
+numComments=6

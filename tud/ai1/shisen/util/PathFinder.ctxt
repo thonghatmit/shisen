@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PathFinder
+comment0.text=\r\n\ \r\n\ Hilfsklasse\ fuer\ das\ Finden\ eines\ Pfades\ zwischen\ zwei\ IToken\ auf\ einem\ IGrid.\r\n\r\n\ (Disclaimer\:\ Do\ NOT\ try\ to\ hard\ to\ understand\ this\ mess.\ Its\ not\ worth\ it.)\r\n\r\n\ @author\ Robert\ Jakobi\r\n\r\n
+comment1.params=
+comment1.target=PathFinder()
+comment1.text=\r\n\ Konstruktor\ des\ {@link\ PathFinder}\r\n
+comment2.params=
+comment2.target=PathFinder\ getInstance()
+comment2.text=\r\n\ Gibt\ die\ Singleton-Instanz\ zurueck.\r\n\r\n\ @return\ Singleton-Instanz\r\n
+comment3.params=grid\ xStart\ yStart\ xEnd\ yEnd
+comment3.target=java.util.List\ findPath(tud.ai1.shisen.model.IGrid,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ Gibt\ den\ kuerzesten\ Pfad\ zwischen\ Start\ und\ Ziel\ zurueck.\r\n\r\n\ @param\ grid\ Grid\ auf\ dem\ der\ Algorithmus\ ausgefuehrt\ werden\ soll\r\n\ @param\ xStart\ X-Koordinate\ des\ Startpunkts\r\n\ @param\ yStart\ Y-Koordinate\ des\ Startpunkts\r\n\ @param\ xEnd\ X-Koordinate\ des\ Endpunkts\r\n\ @param\ yEnd\ Y-Koordinate\ des\ Endpunkts\r\n\ @return\ Liste\ mit\ Pfaden\ vom\ Start-\ zum\ Endpunkt\r\n
+comment4.params=grid\ xStart\ yStart\ end\ mode
+comment4.target=java.util.List\ lineFree(tud.ai1.shisen.model.IGrid,\ int,\ int,\ int,\ boolean)
+comment4.text=\r\n\ Gibt\ eine\ Liste\ von\ IToken\ von\ Start\ zu\ im\ Umkreis\ liegenden\ Zielen\ zurueck,\ die\ keine\ direkten\r\n\ Pfade\ sind.\r\n\ \r\n\ @param\ grid\ Spielfeld.\r\n\ @param\ xStart\ X-Koordinate\ des\ Startpunkts.\r\n\ @param\ yStart\ Y-Koordinate\ des\ Startpunkts.\r\n\ @param\ end\ Ende-Parameter.\r\n\ @param\ mode\ Modus.\r\n\ @return\ Liste\ von\ Pfaden\r\n
+comment5.params=grid\ xStart\ yStart\ xEnd\ yEnd
+comment5.target=java.util.List\ directPath(tud.ai1.shisen.model.IGrid,\ int,\ int,\ int,\ int)
+comment5.text=\r\n\ Gibt\ eine\ Liste\ von\ IToken\ zurueck,\ zu\ denen\ von\ einem\ gegebenen\ Startpunkt\ direkte\ Pfade\r\n\ bestehen.\r\n\ \r\n\ @param\ grid\ Spielfeld.\r\n\ @param\ xStart\ X-Koordinate\ des\ Startpunkts.\r\n\ @param\ yStart\ Y-Koordinate\ des\ Startpunkts.\r\n\ @param\ xEnd\ X-Koordinate\ des\ Endpunkts.\r\n\ @param\ yEnd\ Y-Koordinate\ des\ Endpunkts.\r\n\ @return\ Liste\ von\ IToken\r\n
+comment6.params=grid\ x\ y
+comment6.target=tud.ai1.shisen.model.IToken[]\ getNeighbours(tud.ai1.shisen.model.IGrid,\ int,\ int)
+comment6.text=\r\n\ Gibt\ die\ vier\ benachbarten\ Felder\ eines\ uebergebenen\ Felds\ zurueck.\r\n\r\n\ @param\ grid\ Spielfeld\ zum\ finden\ der\ benachbarten\ Felder.\r\n\ @param\ x\ X-Koordinate\ des\ Felds.\r\n\ @param\ y\ Y-Koordinate\ des\ Felds\r\n\ @return\ [~+1][~](r);\ [~][~-1](u);\ [~-1][~](l);\ [~][~+1](d)\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Launch
+comment0.text=\r\n\ @author\ Maximilian\ Kratz\r\n\ @date\ 2019-05-04\r\n\r\n\ \ \ \ \ \ \ Diese\ Klasse\ startet\ das\ Spiel\ "Shisen".\ Es\ enthaelt\ drei\ States\ fuer\ das\ Menue,\ das\r\n\ \ \ \ \ \ \ eigentliche\ Spiel\ und\ die\ Highscore-Ansicht.\r\n
+comment1.params=
+comment1.target=Launch()
+comment1.text=\r\n\ Konstruktor\ der\ Klasse.\ Ruft\ den\ Super-Konstruktor\ mit\ dem\ Namen\ des\ Spiels\ auf.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Main-Methode\ zum\ Starten\ des\ Spiels.\ Testet,\ auf\ welchem\ Betriebssystem\ das\ Programm\ gestartet\r\n\ wurde\ und\ setzt\ systemabhaengige\ Bibliotheken.\r\n\ \r\n\ @param\ args\ Laufzeit-Argumente,\ die\ nicht\ verwendet\ werden.\r\n\ @throws\ SlickException\ Wirft\ eine\ SlickException\ wenn\ im\ Slick-Framework\ eine\ Ausnahme\r\n\ \ \ \ \ \ \ \ \ passiert.\r\n
+comment3.params=arg0
+comment3.target=void\ initStatesList(org.newdawn.slick.GameContainer)
+comment3.text=\r\n\ Initialisiert\ die\ GameStates\ im\ StateBasedGame\ und\ im\ StateBasedEntityManager.\r\n\ \r\n\ @param\ arg0\ GameContainer\r\n\ @throws\ SlickException\ Wirft\ eine\ SlickException,\ wenn\ im\ Slick-Framework\ eine\ Ausnahme\r\n\ \ \ \ \ \ \ \ \ passiert.\r\n
+numComments=4

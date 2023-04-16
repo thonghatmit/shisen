@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=IToken
+comment0.text=\r\n\ Interface,\ das\ die\ Vorgabe\ fuer\ einen\ Token\ darstellt.\r\n\ \r\n\ @author\ Robert\ Jakobi,\ Max\ Kratz\r\n\r\n
+comment1.params=
+comment1.target=TokenState\ getTokenState()
+comment1.text=\r\n\ Gebe\ TokenState\ zurueck.\r\n\ \r\n\ @return\ TokenState\r\n
+comment2.params=abc
+comment2.target=void\ setTokenState(TokenState)
+comment2.text=\r\n\ Setze\ TokenState\ auf\ uebergebenen\ Wert.\r\n\ \r\n\ @param\ abc\ TokenState,\ welcher\ gesetzt\ wird.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDisplayValue()
+comment3.text=\r\n\ Gebe\ Anzeige-Wert\ als\ String\ zurueck.\r\n\ \r\n\ @return\ Anzeige-Wert\ als\ String\r\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\r\n\ Gebe\ Wert\ des\ Felds\ zurueck.\r\n\ \r\n\ @return\ Wert\ des\ Felds\r\n
+comment5.params=
+comment5.target=int\ getID()
+comment5.text=\r\n\ Gebe\ ID\ des\ Felds\ zurueck.\r\n\ \r\n\ @return\ ID\ des\ Felds\r\n
+comment6.params=
+comment6.target=org.newdawn.slick.geom.Vector2f\ getPos()
+comment6.text=\r\n\ Gebe\ Position\ des\ Felds\ als\ Vector2f\ zurueck.\r\n\ \r\n\ @return\ Position\ des\ Felds\ als\ Vector2f\r\n
+comment7.params=pos
+comment7.target=void\ setPos(org.newdawn.slick.geom.Vector2f)
+comment7.text=\r\n\ Setze\ Position\ des\ Felds\ auf\ uebergebenen\ Vector2f\ Wert.\r\n\ \r\n\ @param\ pos\ Vector2f\ Wert,\ der\ gesetzt\ wird.\r\n
+numComments=8

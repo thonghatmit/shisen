@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Highscore
+comment0.text=\r\n\ Klasse,\ welche\ f\u00C3\u00BCr\ die\ Verwaltung\ der\ Highscores\ verantworlicht\ ist.\ Laedt,\r\n\ speichert\ und\ legt\ neue\ Highscore-Eintraege\ in\ einer\ ArrayList\ an\ und\r\n\ speichert\ die\ ArrayListen\ zusammen\ mit\ dem\ Key\ der\ passenden\ Feldgr\u00C3\u00B6\u00C3\u0178e\ in\r\n\ eine\ Hashmap.\r\n\r\n\ @author\ Andrej\ Felde,\ Daniel\ Stein,\ Nicklas\ Behler\r\n
+comment1.params=
+comment1.target=Highscore()
+comment1.text=\r\n\ Konstruktor\ der\ Highscore-Klasse.\r\n
+comment2.params=str
+comment2.target=void\ initHighscore(java.lang.String)
+comment2.text=\r\n\ Methode\ zum\ Erzeugen\ der\ Highscores\ aus\ dem\ gespeicherten\ Stringformat.\ Teilt\r\n\ den\ uebergebenen\ String\ in\ einzelne\ Eintraege\ und\ speichert\ diese\ in\ einem\r\n\ String-Array.\ Danach\ werden\ die\ einzelnen\ Eintraege\ in\ der\ Hashmap,\ in\ die\r\n\ passenden\ Arraylists\ ihrer\ Feldgr\u00C3\u00B6\u00C3\u0178e\ einsortiert.\r\n\r\n\ @param\ str\ String,\ der\ die\ vorherigen\ Highscores\ enthaelt.\r\n
+comment3.params=fileName
+comment3.target=void\ saveToFile(java.lang.String)
+comment4.params=
+comment4.target=java.util.List\ getHighscore()
+comment4.text=\r\n\ Getter\ Methode\ f\u00C3\u00BCr\ Highscores\ einzelner\ Level.\r\n\r\n\ @return\ Gibt\ die\ Highscore-Liste\ zurueck\r\n
+comment5.params=entry
+comment5.target=void\ addEntry(HighscoreEntry)
+numComments=6
